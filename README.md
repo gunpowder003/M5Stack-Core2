@@ -4,3 +4,7 @@ To install:
 2. Open M5Stack_Pong.py via notepad and copy the code to browser/dekstop UIFlow 1.0 python view
 3. Run the code
 4. Start playing!
+5. Controls:
+   Left button is to move paddle UP
+   Center button to move paddle
+   Right button to reset game
