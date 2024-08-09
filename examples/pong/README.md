@@ -8,3 +8,7 @@ To install:
    Left button is to move paddle UP
    Center button to move paddle
    Right button to reset game
+
+The game in action:<br/>
+[![PONG](http://img.youtube.com/vi/C0Vd9nHkdZk/0.jpg)](http://www.youtube.com/watch?v=C0Vd9nHkdZk "PONG")
+
