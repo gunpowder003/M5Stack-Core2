@@ -143,6 +143,7 @@ while True:
         reset_game()
         score_left = 0
         score_right = 0
+        lcd.clear()
         draw_scoreboard()  # Redraw the scoreboard after reset
     
     # Small delay to avoid too tight loop
