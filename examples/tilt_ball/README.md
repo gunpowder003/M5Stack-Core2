@@ -8,16 +8,16 @@ To play:
 4. Enjoy!
    
 You can play around with several parameter to change the ball behaviour
-Harder setting:
-friction = 0.95  # Lower friction to reduce the rate of slowing down
-scale_x = 30.0  # Increase scaling factor to make the ball more responsive to tilt
-scale_y = 30.0 
+Harder setting:<br/>
+friction = 0.95  # Lower friction to reduce the rate of slowing down<br/>
+scale_x = 30.0  # Increase scaling factor to make the ball more responsive to tilt<br/>
+scale_y = 30.0 <br/>
 
 Parameters
-ball_radius = 15\n
-update_interval = 0.0000001  # 10 ms for faster refresh rate\n
-velocity_x = 0\n
-velocity_y = 0\n
-friction = 0.90  # Lower friction to reduce the rate of slowing down\n
-scale_x = 4.0  # Increase scaling factor to make the ball more responsive to tilt\n
-scale_y = 4.0  # Increase scaling factor to make the ball more responsive to tilt\n
+ball_radius = 15<br/>
+update_interval = 0.0000001  # 10 ms for faster refresh rate<br/>
+velocity_x = 0<br/>
+velocity_y = 0<br/>
+friction = 0.90  # Lower friction to reduce the rate of slowing down<br/>
+scale_x = 4.0  # Increase scaling factor to make the ball more responsive to tilt<br/>
+scale_y = 4.0  # Increase scaling factor to make the ball more responsive to tilt<br/>
