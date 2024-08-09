@@ -1,6 +1,12 @@
-game where you need to maintain the ball on the screen for as long as possible by 
+Game where you need to maintain the ball on the screen for as long as possible by 
 tilting the Core2. It utilize MPU6050 sensor to read tilting value and refresh the ball position accordingly
 
+To play:
+1. tilt the device
+2. it will be game over if the ball touch the screen border
+3. Press left button (button A to restart)
+4. Enjoy!
+   
 You can play around with several parameter to change the ball behaviour
 # Parameters
 ball_radius = 15
