@@ -14,10 +14,10 @@ scale_x = 30.0  # Increase scaling factor to make the ball more responsive to ti
 scale_y = 30.0 
 
 Parameters
-ball_radius = 15
-update_interval = 0.0000001  # 10 ms for faster refresh rate
-velocity_x = 0
-velocity_y = 0
-friction = 0.90  # Lower friction to reduce the rate of slowing down
-scale_x = 4.0  # Increase scaling factor to make the ball more responsive to tilt
-scale_y = 4.0  # Increase scaling factor to make the ball more responsive to tilt
+ball_radius = 15\n
+update_interval = 0.0000001  # 10 ms for faster refresh rate\n
+velocity_x = 0\n
+velocity_y = 0\n
+friction = 0.90  # Lower friction to reduce the rate of slowing down\n
+scale_x = 4.0  # Increase scaling factor to make the ball more responsive to tilt\n
+scale_y = 4.0  # Increase scaling factor to make the ball more responsive to tilt\n
