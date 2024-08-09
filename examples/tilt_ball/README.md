@@ -8,7 +8,7 @@ To play:
 4. Enjoy!
    
 You can play around with several parameter to change the ball behaviour
-# Parameters
+**Parameters**
 ball_radius = 15
 update_interval = 0.0000001  # 10 ms for faster refresh rate
 velocity_x = 0
