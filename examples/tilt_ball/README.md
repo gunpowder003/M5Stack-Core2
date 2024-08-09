@@ -21,3 +21,8 @@ velocity_y = 0<br/>
 friction = 0.90  # Lower friction to reduce the rate of slowing down<br/>
 scale_x = 4.0  # Increase scaling factor to make the ball more responsive to tilt<br/>
 scale_y = 4.0  # Increase scaling factor to make the ball more responsive to tilt<br/>
+
+
+Gameplay:<br/>
+[![TILT_BALL](http://img.youtube.com/vi/HZU05NTX5SQ/0.jpg)](http://www.youtube.com/watch?v=HZU05NTX5SQ "TILT_BALL")
+
