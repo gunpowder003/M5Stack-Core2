@@ -15,14 +15,14 @@ SCREEN_HEIGHT = 240
 
 # Player settings
 PLAYER_SIZE = 20
-SPEED_MULTIPLIER = 20  # Increased for faster player movement
+SPEED_MULTIPLIER = 25  # Increased for faster player movement
 player_y = SCREEN_HEIGHT - 30  # Fixed player position (bottom of screen)
 
 # Block settings
 BLOCK_WIDTH = 20
 BLOCK_HEIGHT = 20
-MAX_BLOCKS = 10  # Max difficulty level
-BLOCK_SPEED_INCREASE = 0.2  # Increased difficulty progression
+MAX_BLOCKS = 30  # Max difficulty level
+BLOCK_SPEED_INCREASE = 0.7  # Increased difficulty progression
 
 # Game loop
 def start_game():
