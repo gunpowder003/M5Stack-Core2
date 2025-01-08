@@ -19,3 +19,7 @@ BLOCK_HEIGHT = 20
 MAX_BLOCKS = 30  # Max difficulty level
 
 BLOCK_SPEED_INCREASE = 0.7  # Blocks get faster over time
+
+Demo Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5mtoY75IqDM/0.jpg)](https://www.youtube.com/watch?v=5mtoY75IqDM)
