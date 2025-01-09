@@ -169,7 +169,7 @@ def game_loop():
         grid_x = int(ball_x // grid_size)  # Ensure conversion to int before accessing grid
         grid_y = int(ball_y // grid_size)
         if grid_x == end_x and grid_y == end_y:
-            lcd.print("YOU WIN!", 100, 110, 0xFFFF00)
+            lcd.print("YOU WON!", 130, 110, 0xFF0000)
             wait(2)
             generate_maze()
             draw_maze()
