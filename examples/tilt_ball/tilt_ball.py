@@ -13,12 +13,12 @@ lcd.fill(0)  # Clear the screen with black color
 
 # Parameters
 ball_radius = 10
-update_interval = 0.01  # 10 ms for faster refresh rate
+update_interval = 0.0000001  # 10 ms for faster refresh rate
 velocity_x = 0
 velocity_y = 0
 friction = 0.90  # Lower friction to reduce the rate of slowing down
-scale_x = 2.0  # Increase scaling factor to make the ball more responsive to tilt
-scale_y = 2.0  # Increase scaling factor to make the ball more responsive to tilt
+scale_x = 30.0  # Increase scaling factor to make the ball more responsive to tilt
+scale_y = 30.0  # Increase scaling factor to make the ball more responsive to tilt
 
 # Fixed screen dimensions for M5Stack Core2
 SCREEN_WIDTH = 320
