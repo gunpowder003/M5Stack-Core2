@@ -1,10 +1,12 @@
-#TILT MAZE!
+**#TILT MAZE!**
+
 
 This game has the same logic as tilt ball. but now user need to move inside a maze to the red flag. 
 Maze will be randomly generated everytime.
 
+<img src="https://github.com/user-attachments/assets/3ea6439a-f1a5-4105-a439-6775882c1012" width="320"><br> <br>
 CONTROLS
-1. Tilt the module to move the ball around to erach the red flag
+1. Tilt the module to move the ball around to reach the red flag
 
 2. Press Button A (Left) to reset the maze
 
