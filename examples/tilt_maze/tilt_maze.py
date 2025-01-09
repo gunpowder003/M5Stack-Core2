@@ -139,15 +139,26 @@ def game_loop():
         ball_x += ball_velocity_x
         ball_y += ball_velocity_y
 
+        # Ensure the ball stays within the maze boundaries
+        ball_x = max(0, min(SCREEN_WIDTH - 1, ball_x))
+        ball_y = max(0, min(SCREEN_HEIGHT - 1, ball_y))
+
         # Convert the ball's position to integers for grid-based calculation
-        grid_x = int(round(ball_x // grid_size))
-        grid_y = int(round(ball_y // grid_size))
+        grid_x = int(ball_x // grid_size)
+        grid_y = int(ball_y // grid_size)
 
         # Prevent moving into walls by checking if the ball is inside the maze grid
         if 0 <= grid_x < maze_width and 0 <= grid_y < maze_height and maze[grid_y][grid_x] == 0:
             ball_x, ball_y = ball_x, ball_y
         else:
-            # If ball hits a wall, reverse its velocity to simulate bounce
+            # Adjust ball position if it hits a wall
+            # Check in all four directions to find the point of collision
+            if maze[grid_y][grid_x] == 1:  # If ball is colliding with a wall
+                # Move ball back to a valid position (slightly inside the grid)
+                ball_x -= ball_velocity_x  # Revert X velocity
+                ball_y -= ball_velocity_y  # Revert Y velocity
+
+            # Reverse velocity after collision
             ball_velocity_x = -ball_velocity_x
             ball_velocity_y = -ball_velocity_y
 
@@ -155,8 +166,8 @@ def game_loop():
         lcd.circle(int(ball_x), int(ball_y), ball_radius, color=0x00FFFF, fillcolor=0x00FFFF)
 
         # Check if player reaches the goal
-        grid_x = int(round(ball_x // grid_size))  # Ensure conversion to int before accessing grid
-        grid_y = int(round(ball_y // grid_size))
+        grid_x = int(ball_x // grid_size)  # Ensure conversion to int before accessing grid
+        grid_y = int(ball_y // grid_size)
         if grid_x == end_x and grid_y == end_y:
             lcd.print("YOU WIN!", 100, 110, 0xFFFF00)
             wait(2)
@@ -171,5 +182,6 @@ def game_loop():
             ball_x, ball_y = start_x * grid_size + grid_size // 2, start_y * grid_size + grid_size // 2
 
         wait_ms(30)  # Reduce flickering
+
 
 game_loop()
