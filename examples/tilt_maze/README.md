@@ -11,7 +11,8 @@ CONTROLS
 2. Press Button A (Left) to reset the maze
 
 
-You can change the parameter to make it more challenging
+
+You can change the parameters below to make it more challenging:
 
 BALL PROPERTIES    
 ball_radius = 8  
