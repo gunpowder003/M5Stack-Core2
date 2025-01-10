@@ -1,6 +1,6 @@
-**SAVE THE ASTRONAUT!**
-![WhatsApp Image 2025-01-10 at 6 11 26 PM](https://github.com/user-attachments/assets/e129a09a-12e7-4428-906b-6e9a76806353)
+**SAVE THE ASTRONAUT!**  
 
+<img src="https://github.com/user-attachments/assets/e129a09a-12e7-4428-906b-6e9a76806353" width="320"><br> <br>
 The objective is to get the astronaut to safety while avoiding deadly red lasers and blue gravity wells that can pull into a blackhole!
 
 **HOW TO PLAY:**
