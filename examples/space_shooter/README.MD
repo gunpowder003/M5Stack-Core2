@@ -9,3 +9,7 @@ To install:
    Center button (B) to restart once game is over<br/>
    Right button (C) to move spaceship to the right<br/>
 
+
+
+Game demo
+t0aPz2zY_UU
