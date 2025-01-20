@@ -12,4 +12,5 @@ To install:
 
 
 Game demo
-t0aPz2zY_UU
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/t0aPz2zY_UU/0.jpg)](https://www.youtube.com/watch?v=t0aPz2zY_UU)
