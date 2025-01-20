@@ -1,5 +1,3 @@
-<img src=https://pictr.com/image/xpGlC5><br> <br>
-
 
 This is a classic space shooter game for M5Stack Core2 written by ChatGPT with some code correction by me. 
 To install: 
