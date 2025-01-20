@@ -5,7 +5,7 @@ To install:
 3. Run the code
 4. Start playing!
 5. Controls:
-   Left button is to move paddle UP<br/>
-   Center button to move paddle DOWN<br/>
-   Right button to reset game<br/>
+   Left button (A) is to move spaceship to the left<br/>
+   Center button (B) to restart once game is over<br/>
+   Right button (C) to move spaceship to the right<br/>
 
