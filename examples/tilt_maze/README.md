@@ -24,3 +24,7 @@ scaling_factor = 2  # Scaling factor for responsiveness (higher = more responsiv
 friction = 0.90  # Inertia / friction factor to slow the ball over time  
 scale_x = 2.0  # Scaling factor for X-axis tilt  
 scale_y = 2.0  # Scaling factor for Y-axis tilt  
+
+
+Gameplay:<br/>
+[![TILT_MAZE](http://img.youtube.com/vi/HrYqa5rrWn4/0.jpg)](http://www.youtube.com/watch?v=HrYqa5rrWn4 "TILT_MAZE")
